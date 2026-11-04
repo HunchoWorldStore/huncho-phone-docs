@@ -20,6 +20,7 @@ site:
       key: section-1
       title: Huncho World Game Pack
       path: huncho-world-game-pack
+      description: ""
       children:
         - type: space
           key: space-1
