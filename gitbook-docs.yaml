@@ -6,6 +6,7 @@ site:
       key: huncho-phone
       title: Huncho Phone
       path: huncho-phone
+      default: true
       children:
         - type: space
           key: huncho-phone-docs
