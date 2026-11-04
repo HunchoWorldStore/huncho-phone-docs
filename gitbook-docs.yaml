@@ -1,0 +1,17 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Huncho World Store Docs
+  structure:
+    - type: section
+      key: huncho-phone
+      title: Huncho Phone
+      path: huncho-phone
+      children:
+        - type: space
+          key: huncho-phone-docs
+          title: Huncho Phone
+          path: docs
+          default: true
+          content:
+            directory: ./
+            language: en
