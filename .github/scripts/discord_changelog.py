@@ -24,11 +24,11 @@ PRODUCTS = [
     },
     {
         "key": "GAMEPACK", "name": "Huncho World Game Pack", "changelog": "huncho-world-game-pack/changelog.md",
-        "docs_path": "huncho-world-game-pack", "banner": "huncho-world-game-pack/assets/banner.png", "color": 0xF5A623,
+        "docs_path": "huncho-world-game-pack", "banner": "huncho-world-game-pack/assets/banner.png", "color": 0xFFC94A,   # banner gold
     },
     {
         "key": "NPCPOLICE", "name": "Huncho NPC Police", "changelog": "huncho-npc-police/changelog.md",
-        "docs_path": "huncho-npc-police", "banner": "huncho-npc-police/assets/banner.png", "color": 0x2F6FED,
+        "docs_path": "huncho-npc-police", "banner": "huncho-npc-police/assets/banner.png", "color": 0xFF4364,   # banner "POLICE" red
     },
 ]
 
