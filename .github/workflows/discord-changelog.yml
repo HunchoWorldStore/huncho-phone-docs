@@ -1,0 +1,51 @@
+name: Post changelog to Discord
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - changelog.md
+      - huncho-world-game-pack/changelog.md
+      - huncho-npc-police/changelog.md
+  workflow_dispatch:
+    inputs:
+      product:
+        description: "Post the newest entry again"
+        type: choice
+        options:
+          - huncho-npc-police/changelog.md
+          - huncho-world-game-pack/changelog.md
+          - changelog.md
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find changed changelogs
+        id: changed
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          MANUAL: ${{ inputs.product }}
+        run: |
+          if [ -n "$MANUAL" ]; then
+            echo "files=$MANUAL" >> "$GITHUB_OUTPUT"
+          elif [ -z "$BEFORE_SHA" ] || [ "$BEFORE_SHA" = "0000000000000000000000000000000000000000" ]; then
+            echo "files=changelog.md huncho-world-game-pack/changelog.md huncho-npc-police/changelog.md" >> "$GITHUB_OUTPUT"
+          else
+            echo "files=$(git diff --name-only "$BEFORE_SHA" HEAD -- '*changelog.md' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Post to Discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK_PHONE: ${{ secrets.DISCORD_WEBHOOK_PHONE }}
+          DISCORD_WEBHOOK_GAMEPACK: ${{ secrets.DISCORD_WEBHOOK_GAMEPACK }}
+          DISCORD_WEBHOOK_NPCPOLICE: ${{ secrets.DISCORD_WEBHOOK_NPCPOLICE }}
+          DOCS_URL: ${{ vars.DOCS_URL }}
+          # manual runs always post (compare against nothing)
+          BEFORE_SHA: ${{ inputs.product == '' && github.event.before || '' }}
+        run: python3 .github/scripts/discord_changelog.py ${{ steps.changed.outputs.files }}
