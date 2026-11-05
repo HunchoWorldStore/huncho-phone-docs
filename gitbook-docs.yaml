@@ -29,3 +29,16 @@ site:
           default: true
           content:
             directory: ./huncho-world-game-pack
+    - type: section
+      key: huncho-npc-police
+      title: Huncho NPC Police
+      path: huncho-npc-police
+      description: ""
+      children:
+        - type: space
+          key: huncho-npc-police-docs
+          title: Huncho NPC Police
+          path: huncho-npc-police
+          default: true
+          content:
+            directory: ./huncho-npc-police
