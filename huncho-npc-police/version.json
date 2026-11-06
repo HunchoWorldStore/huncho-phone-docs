@@ -1,0 +1,10 @@
+{
+  "version": "1.23.1",
+  "download": "https://keymaster.fivem.net",
+  "changelog": [
+    "Police radio no longer warns suspects that police are coming: only heard with an officer within 30 m",
+    "Community service uses the Justice System, sleezy_coms, rcore_prison, esx_communityservice and more automatically",
+    "Built-in community service on the aircraft carrier, /npcpoliceremovecs for staff",
+    "Felony stops, searching after losing sight, suspect descriptions, police radio, plead guilty, /npcpolicecases"
+  ]
+}

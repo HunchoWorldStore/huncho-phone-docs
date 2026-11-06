@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.23.1
+
+* **The police radio no longer warns suspects that police are coming.** The "units responding" line is off (`Config.Radio.toSuspect = false`), and radio chatter and officer lines are only heard with an officer within `hearRange` (30 m)
+* The update check in the server console now works: it reads the version published with these docs
+
 ## 1.23.0
 
 * **Community service finds your script:** the Justice System, sleezy\_coms, randol\_service, bc\_communityservice, esx\_ / mh-communityservice and rcore\_prison COMS are used automatically (`provider`, `order`), with the built-in one as the fallback
