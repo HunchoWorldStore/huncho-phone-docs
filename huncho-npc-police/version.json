@@ -1,7 +1,10 @@
 {
-  "version": "1.23.2",
+  "version": "1.24.0",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "Three strikes for no license / registration / insurance: tickets, then arrested on the 3rd",
+    "Community service offered for fights, and priors no longer block it",
+    "Speeding only above 85 mph",
     "Traffic stops no longer freeze: officer walks to the driver's window, or asks you to step out",
     "Police radio no longer warns suspects that police are coming: only heard with an officer within 30 m",
     "Community service uses the Justice System, sleezy_coms, rcore_prison, esx_communityservice and more automatically",

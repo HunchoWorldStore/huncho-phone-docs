@@ -5,8 +5,8 @@ Offered in the holding cell ([Bond & Counsel](booking.md)) as a swap for prison,
 ## Who can get it
 
 * **Every charge** has to be in `charges`. One charge that isn't (a drug sale, a robbery...) rules it out, and the screen names the charge that blocked it.
-* The total sentence is `maxSentence` or less (15 by default).
-* Not after pleading guilty, and not on arrests that bail out automatically (fights).
+* The sentence for those charges is `maxSentence` or less (15 by default). The repeat-offender boost isn't counted, so priors don't rule it out.
+* Not after pleading guilty. Fight arrests get it next to the automatic bail (`fights = true`).
 
 The sentence becomes `tasksPerUnit` tasks per month, between `minTasks` and `maxTasks`.
 

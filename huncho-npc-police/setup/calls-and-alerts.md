@@ -27,7 +27,7 @@ The resource spots these itself (`Config.Gunshots`, `Config.Detection`), with **
 | Car break-ins | Smashing or forcing a locked car while a local can see it (`needWitness`) |
 | Robberies | Robbery animations (registers, safes, drills, hacking, jewelry cases, lockpicking), a gun out inside a robbery zone with a local there, or aiming at a store clerk |
 | Crashing into a police car | Pulled over for Reckless Driving (`policecrash`) |
-| Ambient patrols | Speeding, brandished guns |
+| Ambient patrols | Speeding over 85 mph (`speedLimitMph`), brandished guns |
 
 The call follows the place: a vault drill at Pacific becomes a Pacific bank robbery, and the units sent match. Add your scripts' animations to `anims`, your MLO robbery spots to `zones`, and drug labs or job spots to `ignoreZones`.
 

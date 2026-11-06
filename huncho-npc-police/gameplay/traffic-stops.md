@@ -19,6 +19,7 @@ Checked with your own scripts, auto-detected (`Config.Citations`):
 * Insurance and registration use m-Insurance when it runs. Without an insurance script, a car with no owner (NPC / stolen) counts as unregistered and insurance is skipped.
 * **Paper items:** put your registration / insurance item names in `registration.items` and the player must carry them. With `metadata.plate` an item only counts for that car (`matchPlate`).
 * **Impound:** each check has an `impoundChance` % chance the car is impounded once the ticket is paid.
+* **Three strikes:** missing papers are a ticket the first two times. The 3rd time caught, the officer arrests you instead of writing a ticket, and you get bond or community service in the holding cell. He warns you on the 2nd time. Set it in `Config.Citations.repeatOffense` (`arrestAfter`, `charges`, `resetOnArrest`).
 * Turn everything off with `Config.Citations.checkDocuments = false`, or one check with its `enabled`.
 * Unsupported license or insurance script? Connect it in [Other scripts](../integrations/other-scripts.md).
 

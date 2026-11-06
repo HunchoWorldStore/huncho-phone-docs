@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.24.0
+
+* **Three strikes for papers.** No license, registration or insurance gets a ticket the first two times. The 3rd time you're caught, you're arrested instead and offered bond or community service in the holding cell (`Config.Citations.repeatOffense`). The officer warns you on the 2nd time, and the count starts over after that arrest.
+* **Community service for fights.** Assault & Battery arrests now offer community service next to the bail (`Config.CommunityService.fights`).
+* **Community service looks at the charges, not your record.** The 15-month limit no longer counts the repeat-offender boost, so priors don't push a minor case (evading, traffic) into prison.
+* **Speeding** is only pulled over above 85 mph (`Config.AmbientPatrols.speedLimitMph`).
+
 ## 1.23.2
 
 * **Traffic stops no longer freeze.** The officer walks to the driver's window instead of the middle or passenger side of the car, and you're told to stay in your vehicle while he walks up. If he can't get to the window, he tells you to step out and the stop carries on on foot.
