@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.25.1
+
+* The booking mugshot uploads at 100 KB/s (was 250). FiveM can drop a player who sends latent data too fast ("latent event packet overflow"), so this keeps the upload under that limit.
+
 ## 1.25.0
 
 * **Set up community service in game.** `/npcpolicecsedit` (admin) sets the start point, the area, the release point and the task spots wherever you stand, with a preview of every spot on the map. It's saved on the server and used instead of the config, and "Reset to config.lua" goes back.
