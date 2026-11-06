@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.25.0
+
+* **Set up community service in game.** `/npcpolicecsedit` (admin) sets the start point, the area, the release point and the task spots wherever you stand, with a preview of every spot on the map. It's saved on the server and used instead of the config, and "Reset to config.lua" goes back.
+* **No more standing in the holding cell** when community service is handed to another script (Justice System, sleezy\_coms...). You're walked out of the station if that script didn't move you.
+* Fixed a vector helper that could stop the built-in community service and the officer's walk to the driver's window.
+
 ## 1.24.1
 
 * Fixed a script error when being booked in 1.24.0 (`attempt to call a nil value (field 'hasDocCharge')`). Update if you're on 1.24.0.

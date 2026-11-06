@@ -1,7 +1,9 @@
 {
-  "version": "1.24.1",
+  "version": "1.25.0",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "Set up the built-in community service in game: /npcpolicecsedit",
+    "Never left in the holding cell when community service goes to another script",
     "Fixed a script error when being booked in 1.24.0",
     "Three strikes for no license / registration / insurance: tickets, then arrested on the 3rd",
     "Community service offered for fights, and priors no longer block it",

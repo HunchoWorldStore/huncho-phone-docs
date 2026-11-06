@@ -41,6 +41,10 @@ The console shows what it found at start:
 
 Your own script instead: `external = function(src, tasks, booking) ... return true end`.
 
+{% hint style="info" %}
+**Handed to another script:** its own task spots are used, so set them up in that script. For example, the Justice System's are in its Staff Console (World → Community service). With none set there, players get no markers. To always use the built-in one (markers, map blip, GPS, `/npcpolicecsedit`), set `provider = 'builtin'`.
+{% endhint %}
+
 {% hint style="warning" %}
 **Justice System:** if its `Config.API.allowedResources` isn't empty, add `huncho_npcpolice` to it. Otherwise it refuses, and the next script in `order` is used.
 {% endhint %}
@@ -51,7 +55,23 @@ The player is taken to the **aircraft carrier** and sweeps up at its task spots 
 
 * Leaving the area (`radius` around `center`) puts them back.
 * Logging out, or not finishing within `maxMinutes`, means prison after all.
-* Somewhere else: change `location`, `center`, `radius`, `release` and `spots`. `spots = {}` picks random spots around `center`.
+* Somewhere else: set it up in game (below), or change `location`, `center`, `radius`, `release` and `spots` in the config. No spots = random spots around the area.
+
+### Setting it up in game
+
+Run **`/npcpolicecsedit`** (admin, `editCommand`) and stand where each thing should be:
+
+| Option | Does |
+| --- | --- |
+| Set start point here | Where players arrive |
+| Set area here | The area around you (radius you pick); leaving it puts them back |
+| Set release point here / No release point | Where they're let go when done, or stay where they finish |
+| Add task spot here | A task spot where you stand, with an optional name ("Sweep the walkway") |
+| Show spots | Markers, names and map blips for every spot for 2 minutes |
+| A spot in the list | Teleport to it, or remove it |
+| Reset to config.lua | Remove everything set in game and use the config again |
+
+It's saved on the server and survives restarts and updates.
 
 ## Ending it early (staff)
 

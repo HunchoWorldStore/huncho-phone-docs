@@ -6,6 +6,7 @@
 | --- | --- | --- |
 | `/npcpolicetest [call]` | admin | Send a response to yourself (works while police are on duty) |
 | `/npcpolicecases` | admin (`Config.StaffCases.aces`) | Every live response: who, what for, how long, what's happening. Mark on map, teleport to, or cancel one (no warrant, charges or jail) |
+| `/npcpolicecsedit` | admin (`Config.CommunityService.editCommand`) | Set up the built-in community service locations in game |
 | `/npcpoliceremovecs [id]` | admin (`Config.CommunityService.removeCommand`) | End a player's [community service](../gameplay/community-service.md) |
 | `/npcpoliceclearwarrant [id]` | admin | Clear a player's NPC warrant |
 | `/npcpoliceclearrecord [id or citizen id] [yes]` | admin | Wipe everything the NPC police wrote about a character (`yes` also removes the NPC fingerprint). Officer-written records are kept |
