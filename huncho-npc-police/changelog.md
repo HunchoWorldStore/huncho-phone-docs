@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.24.1
+
+* Fixed a script error when being booked in 1.24.0 (`attempt to call a nil value (field 'hasDocCharge')`). Update if you're on 1.24.0.
+
 ## 1.24.0
 
 * **Three strikes for papers.** No license, registration or insurance gets a ticket the first two times. The 3rd time you're caught, you're arrested instead and offered bond or community service in the holding cell (`Config.Citations.repeatOffense`). The officer warns you on the 2nd time, and the count starts over after that arrest.
