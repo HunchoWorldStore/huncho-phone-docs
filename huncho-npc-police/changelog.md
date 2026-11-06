@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.23.2
+
+* **Traffic stops no longer freeze.** The officer walks to the driver's window instead of the middle or passenger side of the car, and you're told to stay in your vehicle while he walks up. If he can't get to the window, he tells you to step out and the stop carries on on foot.
+
 ## 1.23.1
 
 * **The police radio no longer warns suspects that police are coming.** The "units responding" line is off (`Config.Radio.toSuspect = false`), and radio chatter and officer lines are only heard with an officer within `hearRange` (30 m)
