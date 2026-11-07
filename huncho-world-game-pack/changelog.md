@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.15.1
+
+- **Update notices are now on.** The pack checks for a new version when it starts and every 6 hours, and prints what's new in the server console. Turn it off with `Config.UpdateCheck.enabled = false` in `games/admin/config.lua`.
+- Item install file for ox_inventory: the note now says eight entries (there are eight games).
+
 ## 1.15.0
 
 - **Translations: Spanish, Portuguese (Brazil), French and German** for all eight games and the admin panel. Every notification, prompt, panel, rules page and result screen is translated, plus the Oh Bih Please and Oh Bih Roulette cards, the Slumlords cards and squares, and the Dominoes and Tumbling Towers text that used to be built into the code. Set one language for the whole pack with `Config.Language` in `games/admin/config.lua` (`'es'`, `'pt-br'`, `'fr'`, `'de'`), or set `Config.Locale` per game.
