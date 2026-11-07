@@ -1,5 +1,9 @@
 # FAQ
 
+## Nobody can hear on speaker
+
+Update to 1.1.3 or newer: older versions turned the call volume almost to 0 on speaker (pma-voice). `Config.Calls.speakerVolume` sets how loud it is (0.0 - 1.0). Speaker needs pma-voice or mumble-voip.
+
 ## Photos, video or voicemail recordings don't work
 
 Set `ServerConfig.FivemanageKey` in `config_server.lua`. The console tells you when it's missing. Without a key, voicemail still works as a typed message.

@@ -9,3 +9,4 @@
 | `/phone_removepost <id>` | Admins | Remove a social post |
 | `/phone_ban <app> <username> <hours> [reason]` | Staff, console | Ban an account from posting (0 hours = for good) |
 | `/phone_unban <app> <username>` | Staff, console | Lift the ban |
+| `/phone_resetpw <app> <username> <new password>` | Staff, console | Set a social account's password. It's logged out everywhere |
