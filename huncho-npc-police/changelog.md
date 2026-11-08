@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.25.2
+
+* **The NPC police leave players real officers already hold.** That covers being cuffed or escorted by an officer's script, or riding in the back of a car an on-duty officer drives. No new response starts, and a response in progress stops at once: officers hold fire and leave, with no warrant or charges from the NPC police. An officer has to be close by, so a player can't fake it.
+
 ## 1.25.1
 
 * The booking mugshot uploads at 100 KB/s (was 250). FiveM can drop a player who sends latent data too fast ("latent event packet overflow"), so this keeps the upload under that limit.

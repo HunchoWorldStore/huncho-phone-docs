@@ -1,7 +1,8 @@
 {
-  "version": "1.25.1",
+  "version": "1.25.2",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "NPC police leave players real officers already have in custody",
     "Mugshot upload slowed to stay under FiveM's latent event limit",
     "Set up the built-in community service in game: /npcpolicecsedit",
     "Never left in the holding cell when community service goes to another script",
