@@ -15,7 +15,7 @@ Everything is detected on its own. **Verified** = written against that resource'
 | Billing (fines) | direct from bank / cash (default), tgg-billing | okokBilling, esx\_billing, RxBilling, wasabi\_billing, qb-phone invoices |
 | Insurance / registration | m-Insurance, owned vehicles table | ods\_vehicleinsurance |
 | MDT | wasabi\_mdt, [Justice System](justice-system.md) | |
-| Licenses | bcs\_licensemanager, esx\_license, QB / Qbox metadata, ID-card items (um-idcard, bl\_idcard, qs-licenses, jg-licenses, okokLicenses, ps-idcard...), license item, ace (standalone) | |
+| Licenses | hunchoworld\_essentials, bcs\_licensemanager, esx\_license, QB / Qbox metadata, ID-card items (um-idcard, bl\_idcard, qs-licenses, jg-licenses, okokLicenses, ps-idcard...), license item, ace (standalone) | |
 | Ambulance / death | qbx\_medical, ak47\_ambulancejob, osp\_ambulance, tk\_ambulancejob, brutal\_ambulancejob, p\_ambulancejob, randol\_medical, sky\_ambulancejob, qs-medical-creator, wasabi\_ambulance, qb-ambulancejob, esx\_ambulancejob, generic | ars\_ambulancejob, plt\_ambulance\_job, origen\_ambulance |
 | Screenshot (mugshot) | screenshot-basic, "screenshot" fork | |
 | Drug selling | [hunchoworld\_advancedtrapping, sage\_trapping](trapping.md) | |

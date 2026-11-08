@@ -1,7 +1,8 @@
 {
-  "version": "1.25.2",
+  "version": "1.25.3",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "hunchoworld_essentials licenses: driver's and weapon license checks, only valid licenses count",
     "NPC police leave players real officers already have in custody",
     "Mugshot upload slowed to stay under FiveM's latent event limit",
     "Set up the built-in community service in game: /npcpolicecsedit",

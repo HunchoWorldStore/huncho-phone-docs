@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.25.3
+
+* **hunchoworld\_essentials licenses.** A new license bridge, picked first when the essentials license manager is on. Traffic stops check the essentials driver's license, and at booking players with a valid essentials weapon license keep their guns. Suspended, revoked or expired licenses don't count, and neither do card items (a stolen or fake card is not a license). It uses the same license names as before (`weapon`, `driver`).
+
 ## 1.25.2
 
 * **The NPC police leave players real officers already hold.** That covers being cuffed or escorted by an officer's script, or riding in the back of a car an on-duty officer drives. No new response starts, and a response in progress stops at once: officers hold fire and leave, with no warrant or charges from the NPC police. An officer has to be close by, so a player can't fake it.
