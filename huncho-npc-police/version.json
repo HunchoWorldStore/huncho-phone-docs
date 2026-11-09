@@ -1,7 +1,8 @@
 {
-  "version": "1.25.3",
+  "version": "1.26.0",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "Bookbags (hunchoworld_bookbags 1.0.4+) are searched like pockets: seized items go to evidence",
     "hunchoworld_essentials licenses: driver's and weapon license checks, only valid licenses count",
     "NPC police leave players real officers already have in custody",
     "Mugshot upload slowed to stay under FiveM's latent event limit",

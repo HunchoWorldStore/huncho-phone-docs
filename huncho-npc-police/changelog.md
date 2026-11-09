@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.26.0
+
+* **Bookbags are searched.** When a suspect is searched, every bag they carry from hunchoworld\_bookbags (worn or not) is gone through with the same rules as their pockets. Illegal items, the crime's items and unlicensed guns go to the evidence stash and the seized record used by `/npcreturn`, and the booking lists them as "(in *bag name*)". What's in the bags also counts as evidence for the charges. The bag itself stays with them. Needs hunchoworld\_bookbags 1.0.4 or newer on ox\_inventory, qs-inventory or qb-inventory v2. Turn it off with `Config.Search.bags = false`.
+
 ## 1.25.3
 
 * **hunchoworld\_essentials licenses.** A new license bridge, picked first when the essentials license manager is on. Traffic stops check the essentials driver's license, and at booking players with a valid essentials weapon license keep their guns. Suspended, revoked or expired licenses don't count, and neither do card items (a stolen or fake card is not a license). It uses the same license names as before (`weapon`, `driver`).
