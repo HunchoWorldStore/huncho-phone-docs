@@ -1,5 +1,9 @@
 # FAQ
 
+## Selfies or photos turn into videos
+
+Update to 1.1.4 or newer. Older 1.1.x versions couldn't see the Fivemanage key in `config_server.lua` from the camera, so every photo became a video.
+
 ## Nobody can hear on speaker
 
 Update to 1.1.3 or newer: older versions turned the call volume almost to 0 on speaker (pma-voice). `Config.Calls.speakerVolume` sets how loud it is (0.0 - 1.0). Speaker needs pma-voice or mumble-voip.

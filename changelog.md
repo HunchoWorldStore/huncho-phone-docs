@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.4
+
+* **Fix: selfies and photos turned into videos.** The camera couldn't tell photos were set up after the Fivemanage key moved to `config_server.lua`, so it switched every photo and selfie to video.
+
 ## 1.1.3
 
 * **Fix: you couldn't hear anything on speaker.** Speaker now sets the call volume to 90 (it was almost 0), and it goes back to normal when you turn speaker off or hang up.
