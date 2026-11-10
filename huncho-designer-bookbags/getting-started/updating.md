@@ -1,6 +1,6 @@
 # Updating
 
-1. Download the new version from [Keymaster](https://keymaster.fivem.net).
+1. Download the new version from [Keymaster](https://keymaster.fivem.net). Bought it on the [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)? It shows up there under your Cfx account.
 2. Replace the `hunchoworld_bookbags` folder. Your shops and saved positions are kept, because they are stored in the server, not in the folder.
 3. If you changed `config.lua`, copy your changes into the new one.
 4. If the update adds designs, paste the item file and copy the images again. See [Adding the items](items.md).
