@@ -21,7 +21,7 @@ import urllib.request
 PRODUCTS = [
     {
         "key": "PHONE", "name": "Huncho Phone", "changelog": "changelog.md",
-        "docs_path": "", "banner": "assets/banner.png", "color": 0x7B6BFF,   # banner blue-purple
+        "docs_path": "huncho-phone", "banner": "assets/banner.png", "color": 0x7B6BFF,   # banner blue-purple
     },
     {
         "key": "GAMEPACK", "name": "Huncho World Game Pack", "changelog": "huncho-world-game-pack/changelog.md",

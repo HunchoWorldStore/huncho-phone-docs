@@ -3,10 +3,24 @@ site:
   title: Huncho World Store Docs
   structure:
     - type: section
+      key: home
+      title: Home
+      path: home
+      default: true
+      children:
+        - type: space
+          key: home-docs
+          title: Huncho World Store
+          path: home
+          default: true
+          content:
+            directory: ./home
+            language: en
+    - type: section
       key: huncho-phone
       title: Huncho Phone
       path: huncho-phone
-      default: true
+      description: ""
       children:
         - type: space
           key: huncho-phone-docs
