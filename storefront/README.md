@@ -13,7 +13,7 @@ This folder is **not** part of the GitBook docs (`gitbook-docs.yaml` doesn't poi
 
 ## Setup
 
-1. **Tebex public token.** Tebex Creator Panel → Integrations → API Keys → copy the **Public Token**. Paste it into `CONFIG.tebexToken` at the top of the script in `index.html`. The public token is meant for websites; never put the **private key** here.
+1. **Tebex public token.** Tebex Creator Panel → Developers → API Keys (creator.tebex.io/developers/api-keys) → copy the **Public Token**. Paste it into `CONFIG.tebexToken` at the top of the script in `index.html`. The public token is meant for websites; never put the **private key** here.
 2. **Turn on GitHub Pages.** Repo → Settings → Pages → Source: **GitHub Actions**. Every push to `main` that touches `storefront/` deploys the site to `https://hunchoworldstore.github.io/huncho-phone-docs/`.
 3. **Docs widget.** GitBook → your docs site → Settings → **AI & MCP**: make sure Docs Embed is on. The script URL it shows should be `CONFIG.docsSiteUrl` + `/~gitbook/embed/script.js`.
 4. **Custom domain (optional).** Add it under Settings → Pages, e.g. `store.hunchoworld.com`.
