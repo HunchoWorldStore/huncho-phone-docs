@@ -14,6 +14,8 @@ layout:
     visible: false
 ---
 
+<figure><img src="assets/logo.png" alt="Huncho World Store" width="280"><figcaption></figcaption></figure>
+
 # Complete guides for every Huncho World script
 
 Search above, or pick a guide below.
