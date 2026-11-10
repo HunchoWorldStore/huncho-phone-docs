@@ -1,3 +1,9 @@
+---
+description: A complete FiveM smartphone with ten phone models, real foldables and working keys, video calls, social apps, Mail and music.
+cover: assets/banner.png
+coverY: 0
+---
+
 # Huncho Phone
 
 A complete FiveM smartphone: ten phone models with real foldables and working keys, FaceLink video calls, social apps, Mail, music and more. It runs on **Qbox, QBCore and ESX** and detects your other scripts by itself.
