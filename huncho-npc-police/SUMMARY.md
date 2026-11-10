@@ -43,6 +43,9 @@
 
 * [Commands](reference/commands.md)
 * [Exports](reference/exports.md)
-* [Config overview](reference/configuration.md)
+* [Configuration](reference/configuration.md)
+
+## Help
+
 * [Troubleshooting](reference/troubleshooting.md)
 * [Changelog](changelog.md)

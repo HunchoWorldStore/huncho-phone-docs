@@ -1,5 +1,7 @@
 ---
 description: Eight realistic table games for FiveM in one resource.
+cover: assets/banner.png
+coverY: 0
 ---
 
 # Huncho World Game Pack

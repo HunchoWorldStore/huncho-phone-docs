@@ -16,10 +16,10 @@ layout:
 
 # Huncho World Store
 
-Pick a script to get started. Every script has its installation steps, configuration, integrations, troubleshooting and changelog.
+Pick a script to get started. Every script's docs start with **Getting started** and end with **Help** (troubleshooting and the changelog), with features, integrations and reference in between.
 
 {% hint style="success" %}
-**Buy any script:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)\
+**Buy any script:** [Huncho World Store](https://hunchoworldstore.github.io/) or on [Tebex](https://huncho-world-fivem-store.tebex.store/)\
 **Support & updates:** [Huncho World Discord](https://discord.gg/hP8VTtwgs5)
 {% endhint %}
 
@@ -33,4 +33,4 @@ Pick a script to get started. Every script has its installation steps, configura
 
 ## Need help?
 
-Every script's docs end with **Troubleshooting** or an **FAQ** and its **Changelog**. If you're still stuck, open a ticket in the [Huncho World Discord](https://discord.gg/hP8VTtwgs5).
+Every script's docs end with a **Help** section: **Troubleshooting** (or an **FAQ**) and the **Changelog**. If you're still stuck, open a ticket in the [Huncho World Discord](https://discord.gg/hP8VTtwgs5).

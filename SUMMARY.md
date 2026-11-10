@@ -2,7 +2,7 @@
 
 * [Huncho Phone](README.md)
 
-## Start
+## Getting started
 
 * [Installation](installation.md)
 * [Configuration](configuration.md)
@@ -13,15 +13,15 @@
 * [Apps](apps.md)
 * [Languages](languages.md)
 
-## Your server
+## Integrations
 
-* [Integrations](integrations.md)
+* [Supported scripts](integrations.md)
 * [Scripts made for other phones](other-phones.md)
-* [Staff tools & Discord logs](staff-and-logs.md)
+
+## Reference
+
 * [Commands](commands.md)
-
-## Developers
-
+* [Staff tools & Discord logs](staff-and-logs.md)
 * [Exports](exports.md)
 * [Custom apps](custom-apps.md)
 
