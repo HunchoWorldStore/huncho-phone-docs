@@ -11,7 +11,7 @@
 
 ## Setup
 
-* [Admin Panel](admin-panel.md)
+* [Admin panel](admin-panel.md)
 * [Languages](languages.md)
 
 ## Games
@@ -29,7 +29,10 @@
 
 * [Commands](reference/commands.md)
 * [Permissions](reference/permissions.md)
-* [Config Files](reference/configuration.md)
+* [Configuration](reference/configuration.md)
 * [Exports](reference/exports.md)
+
+## Help
+
 * [Troubleshooting](reference/troubleshooting.md)
 * [Changelog](changelog.md)

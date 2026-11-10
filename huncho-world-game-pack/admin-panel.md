@@ -2,7 +2,7 @@
 description: One panel to run every game in the pack.
 ---
 
-# Admin Panel
+# Admin panel
 
 Open it in game with **`/gamepack`**. By default only server admins (`group.admin`) can open it.
 

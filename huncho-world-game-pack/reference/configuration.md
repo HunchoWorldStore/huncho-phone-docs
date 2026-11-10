@@ -1,4 +1,4 @@
-# Config Files
+# Configuration
 
 Each game is configured in its own folder under `games/`. Nothing is shared, so changing one game never affects another. Every file listed here stays readable after escrow.
 

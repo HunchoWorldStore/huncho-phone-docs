@@ -1,4 +1,4 @@
-# Integrations
+# Supported scripts
 
 Everything is detected when the phone starts. Force a choice in `Config.Integrations`.
 

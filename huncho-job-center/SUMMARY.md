@@ -31,7 +31,7 @@
 * [Banking](integrations/banking.md)
 * [Using your own scripts](integrations/custom-scripts.md)
 
-## Admin
+## Reference
 
 * [Commands](admin/commands.md)
 * [Staff tools](admin/staff-tools.md)

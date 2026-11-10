@@ -1,4 +1,4 @@
-# Config overview
+# Configuration
 
 Everything is in `config.lua` (open, also on the escrowed version). The Discord webhook lives in `server/config_server.lua`, which only runs on the server.
 
