@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+* Tuned default bag and strap positions for every wear style, for male and female characters. Bookbags and minis sit closer to the body and their straps line up on the shoulders out of the box.
+
 ## 1.2.0
 
 * 24 new designs made for women, 3 per house: 88 designs, 176 items and images, 528 props
