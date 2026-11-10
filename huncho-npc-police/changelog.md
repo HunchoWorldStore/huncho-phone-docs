@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.26.1
+
+* **Officers deleted by another script.** qb-smallresources deletes `s_m_y_cop_01`, `s_f_y_cop_01`, `s_m_y_sheriff_01` and `s_f_y_sheriff_01` as they spawn (its `Config.BlacklistedPeds`). Officers vanished and the response ended as if they'd been killed. Now an officer who disappears without dying doesn't count as killed. The model is remembered as blocked, new officers are sent once using a model that isn't blocked (`Config.BlockedPedFallbacks`), and the console says which setting to change. A warning also shows at startup when qb-smallresources is running with those models in use.
+* **Best fix:** remove the cop and sheriff models from `Config.BlacklistedPeds` in qb-smallresources' `config.lua` (it already turns off GTA's own cops), or use freemode uniforms with `/npcpoliceoutfit`.
+* The stun gun no longer shows a false "has no ammo" debug message.
+
 ## 1.26.0
 
 * **Bookbags are searched.** When a suspect is searched, every bag they carry from hunchoworld\_bookbags (worn or not) is gone through with the same rules as their pockets. Illegal items, the crime's items and unlicensed guns go to the evidence stash and the seized record used by `/npcreturn`, and the booking lists them as "(in *bag name*)". What's in the bags also counts as evidence for the charges. The bag itself stays with them. Needs hunchoworld\_bookbags 1.0.4 or newer on ox\_inventory, qs-inventory or qb-inventory v2. Turn it off with `Config.Search.bags = false`.
