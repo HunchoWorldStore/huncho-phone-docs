@@ -6,6 +6,10 @@ description: Eight realistic table games for FiveM in one resource.
 
 Eight table games in one resource. Players sit at real tables in synced seated animations, see the real pieces move, and play for free or for cash. Bots fill empty seats.
 
+{% hint style="success" %}
+**Get it:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)
+{% endhint %}
+
 | Game | What's in it |
 | --- | --- |
 | [**Beer Pong**](games/beer-pong.md) | Real ball physics, your character throws and drinks, 1v1 or 2v2, bots, betting and side bets, spectator cameras |

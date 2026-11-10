@@ -2,7 +2,7 @@
 
 > **Escrow:** don't rename the `hunchoworld_jobcenter` folder, and don't delete the `.fxap` file that comes with the download, or the resource won't start.
 
-1. **Add the resource.** Put `hunchoworld_jobcenter` in your resources folder.
+1. **Add the resource.** Download it from [keymaster.fivem.net](https://keymaster.fivem.net) (Granted Assets) and put `hunchoworld_jobcenter` in your resources folder. Don't have it yet? Get it on the [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/).
 2. **Start order.** Add `ensure hunchoworld_jobcenter` to `server.cfg` **after** your framework, inventory, banking, target, key and fuel scripts, so they're detected.
 3. **Restart.** The database tables are created automatically. `hunchoworld_jobcenter.sql` is included if you'd rather run it yourself.
 4. **Add the items** for fishing, prospecting and recycling. See [Adding the items](items.md).

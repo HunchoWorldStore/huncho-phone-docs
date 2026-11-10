@@ -4,7 +4,7 @@
 {% step %}
 ### Download
 
-Download the resource from [keymaster.fivem.net](https://keymaster.fivem.net) under **Granted Assets**.
+Download the resource from [keymaster.fivem.net](https://keymaster.fivem.net) under **Granted Assets**. Don't have it yet? Get it on the [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/).
 {% endstep %}
 
 {% step %}

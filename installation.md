@@ -1,6 +1,6 @@
 # Installation
 
-1. **Add the resource.** Put the `hw_phone` folder in your resources folder.
+1. **Add the resource.** Download it from [keymaster.fivem.net](https://keymaster.fivem.net) (Granted Assets) and put the `hw_phone` folder in your resources folder. Don't have it yet? Get it on the [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/).
 2. **Start it in `server.cfg`**, after your framework, inventory and voice script:
 
    ```
