@@ -17,6 +17,45 @@ site:
             directory: ./home
             language: en
     - type: section
+      key: huncho-designer-bookbags
+      title: Huncho Designer Bookbags
+      path: huncho-designer-bookbags
+      description: ""
+      children:
+        - type: space
+          key: huncho-designer-bookbags-docs
+          title: Huncho Designer Bookbags
+          path: huncho-designer-bookbags
+          default: true
+          content:
+            directory: ./huncho-designer-bookbags
+    - type: section
+      key: huncho-job-center
+      title: Huncho Job Center
+      path: huncho-job-center
+      description: ""
+      children:
+        - type: space
+          key: huncho-job-center-docs
+          title: Huncho Job Center
+          path: huncho-job-center
+          default: true
+          content:
+            directory: ./huncho-job-center
+    - type: section
+      key: huncho-npc-police
+      title: Huncho NPC Police
+      path: huncho-npc-police
+      description: ""
+      children:
+        - type: space
+          key: huncho-npc-police-docs
+          title: Huncho NPC Police
+          path: huncho-npc-police
+          default: true
+          content:
+            directory: ./huncho-npc-police
+    - type: section
       key: huncho-phone
       title: Huncho Phone
       path: huncho-phone
@@ -43,42 +82,3 @@ site:
           default: true
           content:
             directory: ./huncho-world-game-pack
-    - type: section
-      key: huncho-npc-police
-      title: Huncho NPC Police
-      path: huncho-npc-police
-      description: ""
-      children:
-        - type: space
-          key: huncho-npc-police-docs
-          title: Huncho NPC Police
-          path: huncho-npc-police
-          default: true
-          content:
-            directory: ./huncho-npc-police
-    - type: section
-      key: huncho-job-center
-      title: Huncho Job Center
-      path: huncho-job-center
-      description: ""
-      children:
-        - type: space
-          key: huncho-job-center-docs
-          title: Huncho Job Center
-          path: huncho-job-center
-          default: true
-          content:
-            directory: ./huncho-job-center
-    - type: section
-      key: huncho-designer-bookbags
-      title: Huncho Designer Bookbags
-      path: huncho-designer-bookbags
-      description: ""
-      children:
-        - type: space
-          key: huncho-designer-bookbags-docs
-          title: Huncho Designer Bookbags
-          path: huncho-designer-bookbags
-          default: true
-          content:
-            directory: ./huncho-designer-bookbags
