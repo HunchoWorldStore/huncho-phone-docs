@@ -1,6 +1,6 @@
 # Huncho World Storefront
 
-**Version 1.0.0**
+**Version 1.0.1**
 
 A custom store site for the Huncho World Tebex store. One `index.html`, no build step.
 
@@ -32,6 +32,10 @@ This folder is **not** part of the GitBook docs (`gitbook-docs.yaml` doesn't poi
 **New script?** Add it to Tebex (it shows up on the site by itself), then add a line to `CONFIG.docs` so its **Docs** button and image work.
 
 ## Changelog
+
+### 1.0.1
+
+* Tebex public token added: live catalog and checkout are on
 
 ### 1.0.0
 
