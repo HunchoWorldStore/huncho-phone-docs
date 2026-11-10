@@ -1,7 +1,8 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "Tuned default bag and strap positions for every style",
     "24 new designs made for women: 88 designs, 176 items, 528 props",
     "tgiann-inventory and ak47_inventory support",
     "wasabi_inventory uses the script's straps, wear styles and storage",
