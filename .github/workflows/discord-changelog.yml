@@ -8,12 +8,14 @@ on:
       - huncho-world-game-pack/changelog.md
       - huncho-npc-police/changelog.md
       - huncho-job-center/changelog.md
+      - huncho-designer-bookbags/changelog.md
   workflow_dispatch:
     inputs:
       product:
         description: "Post the newest entry again"
         type: choice
         options:
+          - huncho-designer-bookbags/changelog.md
           - huncho-job-center/changelog.md
           - huncho-npc-police/changelog.md
           - huncho-world-game-pack/changelog.md
@@ -36,7 +38,7 @@ jobs:
           if [ -n "$MANUAL" ]; then
             echo "files=$MANUAL" >> "$GITHUB_OUTPUT"
           elif [ -z "$BEFORE_SHA" ] || [ "$BEFORE_SHA" = "0000000000000000000000000000000000000000" ]; then
-            echo "files=changelog.md huncho-world-game-pack/changelog.md huncho-npc-police/changelog.md huncho-job-center/changelog.md" >> "$GITHUB_OUTPUT"
+            echo "files=changelog.md huncho-world-game-pack/changelog.md huncho-npc-police/changelog.md huncho-job-center/changelog.md huncho-designer-bookbags/changelog.md" >> "$GITHUB_OUTPUT"
           else
             echo "files=$(git diff --name-only "$BEFORE_SHA" HEAD -- '*changelog.md' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
           fi
@@ -48,6 +50,7 @@ jobs:
           DISCORD_WEBHOOK_GAMEPACK: ${{ secrets.DISCORD_WEBHOOK_GAMEPACK }}
           DISCORD_WEBHOOK_NPCPOLICE: ${{ secrets.DISCORD_WEBHOOK_NPCPOLICE }}
           DISCORD_WEBHOOK_JOBCENTER: ${{ secrets.DISCORD_WEBHOOK_JOBCENTER }}
+          DISCORD_WEBHOOK_BOOKBAGS: ${{ secrets.DISCORD_WEBHOOK_BOOKBAGS }}
           DOCS_URL: ${{ vars.DOCS_URL }}
           # manual runs always post (compare against nothing)
           BEFORE_SHA: ${{ inputs.product == '' && github.event.before || '' }}

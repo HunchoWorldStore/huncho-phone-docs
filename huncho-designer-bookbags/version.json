@@ -1,0 +1,12 @@
+{
+  "version": "1.2.0",
+  "download": "https://keymaster.fivem.net",
+  "changelog": [
+    "24 new designs made for women: 88 designs, 176 items, 528 props",
+    "tgiann-inventory and ak47_inventory support",
+    "wasabi_inventory uses the script's straps, wear styles and storage",
+    "bridge/custom.lua: hook up your own framework or inventory",
+    "Wear styles: back, chest or one strap (1.1.0)",
+    "Shoulder straps on every bag (1.1.0)"
+  ]
+}
