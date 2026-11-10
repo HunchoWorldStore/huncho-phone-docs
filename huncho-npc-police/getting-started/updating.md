@@ -10,7 +10,7 @@ Copy your `config.lua`, `server/config_server.lua`, `locales/` and any custom ad
 {% step %}
 ### Replace the resource
 
-Download the new version from keymaster and replace the whole `huncho_npcpolice` folder. Bought it on the [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)? It shows up in Keymaster under your Cfx account.
+Download the new version from keymaster and replace the whole `huncho_npcpolice` folder. Bought it on the [Huncho World Store](https://hunchoworldstore.github.io/)? It shows up in Keymaster under your Cfx account.
 {% endstep %}
 
 {% step %}
