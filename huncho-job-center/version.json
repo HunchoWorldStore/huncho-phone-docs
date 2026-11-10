@@ -1,0 +1,12 @@
+{
+  "version": "1.4.0",
+  "download": "https://keymaster.fivem.net",
+  "changelog": [
+    "Inventory support for tgiann-inventory, wasabi_inventory, ak47_inventory and qb-inventory exports",
+    "Banking support for hunchoworld_banking, fd_banking, okokBanking, qs-banking and ps-banking",
+    "bridge/custom.lua: hook up your own inventory, banking, key, fuel or notification script",
+    "omes_banking and esx_banking statements (1.3.0)",
+    "In-game uniform editor: /jcuniforms (1.2.0)",
+    "In-game location editor: /jclocations (1.1.0)"
+  ]
+}

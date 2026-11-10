@@ -1,7 +1,7 @@
 """Posts a product's newest changelog entry to Discord when its changelog.md changes.
 
 One post per product, each to its own webhook (repo secrets):
-    DISCORD_WEBHOOK_PHONE, DISCORD_WEBHOOK_GAMEPACK, DISCORD_WEBHOOK_NPCPOLICE
+    DISCORD_WEBHOOK_PHONE, DISCORD_WEBHOOK_GAMEPACK, DISCORD_WEBHOOK_NPCPOLICE, DISCORD_WEBHOOK_JOBCENTER
 A product without its own secret uses DISCORD_WEBHOOK, if set. No webhook = skipped.
 
 Optional repo variable DOCS_URL = your GitBook site (e.g. https://docs.example.com): the post links to the
@@ -29,6 +29,10 @@ PRODUCTS = [
     {
         "key": "NPCPOLICE", "name": "Huncho NPC Police", "changelog": "huncho-npc-police/changelog.md",
         "docs_path": "huncho-npc-police", "banner": "huncho-npc-police/assets/banner.png", "color": 0xFF4364,   # banner "POLICE" red
+    },
+    {
+        "key": "JOBCENTER", "name": "Huncho Job Center", "changelog": "huncho-job-center/changelog.md",
+        "docs_path": "huncho-job-center", "banner": "huncho-job-center/assets/banner.png", "color": 0x22E4FF,   # banner neon cyan
     },
 ]
 
