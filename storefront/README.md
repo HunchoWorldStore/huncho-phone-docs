@@ -1,0 +1,38 @@
+# Huncho World Storefront
+
+**Version 1.0.0**
+
+A custom store site for the Huncho World Tebex store. One `index.html`, no build step.
+
+* **Live catalog** from the Tebex Headless API (categories, packages, prices, sales)
+* **Cart + checkout on the site**: Cfx.re sign-in, then the Tebex.js checkout popup, so buyers never leave
+* **GitBook Docs Embed**: "Ask the docs" widget, and every product's **Docs** button opens that script's docs in the widget
+* Falls back to a built-in catalog with "Buy" links to the Tebex store if Tebex can't be reached
+
+This folder is **not** part of the GitBook docs (`gitbook-docs.yaml` doesn't point at it).
+
+## Setup
+
+1. **Tebex public token.** Tebex Creator Panel → Integrations → API Keys → copy the **Public Token**. Paste it into `CONFIG.tebexToken` at the top of the script in `index.html`. The public token is meant for websites; never put the **private key** here.
+2. **Turn on GitHub Pages.** Repo → Settings → Pages → Source: **GitHub Actions**. Every push to `main` that touches `storefront/` deploys the site to `https://hunchoworldstore.github.io/huncho-phone-docs/`.
+3. **Docs widget.** GitBook → your docs site → Settings → **AI & MCP**: make sure Docs Embed is on. The script URL it shows should be `CONFIG.docsSiteUrl` + `/~gitbook/embed/script.js`.
+4. **Custom domain (optional).** Add it under Settings → Pages, e.g. `store.hunchoworld.com`.
+
+## Config
+
+| Key | What it does |
+| --- | --- |
+| `tebexToken` | Public token. Empty = preview mode with the built-in catalog |
+| `tebexStoreUrl` | Where "Buy" links go when the live catalog isn't loaded |
+| `docsSiteUrl` | Your GitBook site, used for the docs widget |
+| `discordUrl` | Discord invite in the header and footer |
+| `brand` | Checkout popup colours |
+| `docs` | Matches a package name to its docs section and a fallback image |
+
+**New script?** Add it to Tebex (it shows up on the site by itself), then add a line to `CONFIG.docs` so its **Docs** button and image work.
+
+## Changelog
+
+### 1.0.0
+
+* First version: live Tebex catalog, cart, Cfx.re sign-in, Tebex.js checkout, GitBook docs widget
