@@ -17,3 +17,6 @@ Try `Config.QsServerOpen = true`. If your qs version stores stashes without a pr
 
 **Shop clerk doesn't appear**
 Check the ped model under **Ped & blip**. A wrong model falls back to `Config.DefaultPed` and prints a warning in F8. Players can still press **E** at the shop.
+
+**Still stuck?**
+Open a ticket in our [Discord](https://discord.gg/hP8VTtwgs5) with any red errors from F8 or the server console.

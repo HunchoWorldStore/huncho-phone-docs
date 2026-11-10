@@ -85,7 +85,7 @@ The notice only shows when a newer version is out. Set `Config.UpdateCheck.debug
 
 ## Still stuck?
 
-Open a ticket in our Discord with:
+Open a ticket in our [Discord](https://discord.gg/hP8VTtwgs5) with:
 
 * your framework, inventory and target
 * the start-up lines each game printed in the server console

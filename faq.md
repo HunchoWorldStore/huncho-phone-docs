@@ -35,3 +35,7 @@ Alarms use the player's own clock and ring while they carry that phone, even wit
 ## FaceLink or live video doesn't connect for some players
 
 Video goes player to player. Add a TURN server in `Config.Video.iceServers` for players on strict networks. Without one, those players get lighter frames through your server.
+
+## Still stuck?
+
+Open a ticket in our [Discord](https://discord.gg/hP8VTtwgs5) with any red errors from F8 or the server console.

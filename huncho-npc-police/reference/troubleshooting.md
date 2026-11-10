@@ -78,4 +78,4 @@ The built-in drug-sale detection (`Config.Detection.drugsell`) picks them up wit
 
 ## Still stuck?
 
-Open a ticket in our Discord with your console's start-up lines and the output of `/npcpolicedetect`.
+Open a ticket in our [Discord](https://discord.gg/hP8VTtwgs5) with your console's start-up lines and the output of `/npcpolicedetect`.

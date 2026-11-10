@@ -19,7 +19,8 @@ layout:
 Pick a script to get started. Every script has its installation steps, configuration, integrations, troubleshooting and changelog.
 
 {% hint style="success" %}
-**Buy any script:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)
+**Buy any script:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)\
+**Support & updates:** [Huncho World Discord](https://discord.gg/hP8VTtwgs5)
 {% endhint %}
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
@@ -32,4 +33,4 @@ Pick a script to get started. Every script has its installation steps, configura
 
 ## Need help?
 
-Every script's docs end with **Troubleshooting** or an **FAQ** and its **Changelog**. If you're still stuck, ask in the support channel you bought the script from.
+Every script's docs end with **Troubleshooting** or an **FAQ** and its **Changelog**. If you're still stuck, open a ticket in the [Huncho World Discord](https://discord.gg/hP8VTtwgs5).

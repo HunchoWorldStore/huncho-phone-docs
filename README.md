@@ -11,7 +11,8 @@ A complete FiveM smartphone: ten phone models with real foldables and working ke
 `Qbox` · `QBCore` · `ESX Legacy` · `ox_lib + oxmysql` · `5 languages`
 
 {% hint style="success" %}
-**Get it:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)
+**Get it:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)\
+**Support & updates:** [Huncho World Discord](https://discord.gg/hP8VTtwgs5)
 {% endhint %}
 
 ## Two editions

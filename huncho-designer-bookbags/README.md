@@ -16,7 +16,8 @@ coverY: 0
 * **Auto-detects** Qbox, QBCore, ESX and 8 inventories, with a bridge for your own
 
 {% hint style="success" %}
-**Get it:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)
+**Get it:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)\
+**Support & updates:** [Huncho World Discord](https://discord.gg/hP8VTtwgs5)
 {% endhint %}
 
 `Qbox` · `QBCore` · `ESX` · `ox` · `qb` · `qs` · `wasabi` · `tgiann` · `ak47` · `+ your own`

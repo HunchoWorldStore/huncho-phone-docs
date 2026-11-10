@@ -11,7 +11,8 @@ NPC police that respond to your dispatch alerts **while no real officers are on 
 Works with **Qbox, QBCore, ESX and standalone servers**. Every integration is **auto-detected**, so in most cases you drop it in and start it.
 
 {% hint style="success" %}
-**Get it:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)
+**Get it:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)\
+**Support & updates:** [Huncho World Discord](https://discord.gg/hP8VTtwgs5)
 {% endhint %}
 
 ## What's in it
@@ -41,4 +42,4 @@ New here? Start with [Requirements](getting-started/requirements.md), then [Inst
 
 ## Need help?
 
-Check [Troubleshooting](reference/troubleshooting.md) first. If that doesn't fix it, open a ticket in our Discord with the start-up lines your server console printed (`[huncho_npcpolice] server framework: ...` and the lines after it) and the output of `/npcpolicedetect`.
+Check [Troubleshooting](reference/troubleshooting.md) first. If that doesn't fix it, open a ticket in our [Discord](https://discord.gg/hP8VTtwgs5) with the start-up lines your server console printed (`[huncho_npcpolice] server framework: ...` and the lines after it) and the output of `/npcpolicedetect`.

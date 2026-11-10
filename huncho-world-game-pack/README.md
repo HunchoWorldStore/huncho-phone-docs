@@ -7,7 +7,8 @@ description: Eight realistic table games for FiveM in one resource.
 Eight table games in one resource. Players sit at real tables in synced seated animations, see the real pieces move, and play for free or for cash. Bots fill empty seats.
 
 {% hint style="success" %}
-**Get it:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)
+**Get it:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)\
+**Support & updates:** [Huncho World Discord](https://discord.gg/hP8VTtwgs5)
 {% endhint %}
 
 | Game | What's in it |
@@ -39,4 +40,4 @@ New here? Start with [Requirements](getting-started/requirements.md), then [Inst
 
 ## Need help?
 
-Check [Troubleshooting](reference/troubleshooting.md) first. If that doesn't fix it, open a ticket in our Discord with the start-up lines your server console printed for the game (each game prints what it detected).
+Check [Troubleshooting](reference/troubleshooting.md) first. If that doesn't fix it, open a ticket in our [Discord](https://discord.gg/hP8VTtwgs5) with the start-up lines your server console printed for the game (each game prints what it detected).

@@ -28,4 +28,4 @@ Check the `Keys` line at start. Not supported? Use [your own scripts](integratio
 The shelves only look stocked if your server loads the interior's props. `bob74_ipl` does by default.
 
 **Something else.**
-Set `Config.Debug = true`, reproduce it, and send the F8 and server console output to support.
+Set `Config.Debug = true`, reproduce it, and send the F8 and server console output in a ticket on our [Discord](https://discord.gg/hP8VTtwgs5).
