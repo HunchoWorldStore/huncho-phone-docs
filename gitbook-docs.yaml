@@ -55,3 +55,16 @@ site:
           default: true
           content:
             directory: ./huncho-job-center
+    - type: section
+      key: huncho-designer-bookbags
+      title: Huncho Designer Bookbags
+      path: huncho-designer-bookbags
+      description: ""
+      children:
+        - type: space
+          key: huncho-designer-bookbags-docs
+          title: Huncho Designer Bookbags
+          path: huncho-designer-bookbags
+          default: true
+          content:
+            directory: ./huncho-designer-bookbags
