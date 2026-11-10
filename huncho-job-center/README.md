@@ -11,7 +11,7 @@ coverY: 0
 `Qbox` · `QBCore` · `ESX Legacy` · `ox_lib + oxmysql` · `50+ scripts detected`
 
 {% hint style="success" %}
-**Get it:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)\
+**Get it:** [Huncho World Store](https://hunchoworldstore.github.io/)\
 **Support & updates:** [Huncho World Discord](https://discord.gg/hP8VTtwgs5)
 {% endhint %}
 

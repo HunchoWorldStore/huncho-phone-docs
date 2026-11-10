@@ -25,7 +25,7 @@ Config.UpdateCheck = {
 
 ## Installing an update
 
-1. Download the new version from [keymaster.fivem.net](https://keymaster.fivem.net) (Granted Assets). Bought it on the [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)? It shows up there under your Cfx account.
+1. Download the new version from [keymaster.fivem.net](https://keymaster.fivem.net) (Granted Assets). Bought it on the [Huncho World Store](https://hunchoworldstore.github.io/)? It shows up there under your Cfx account.
 2. Back up the files you changed: configs, `locales/`, `config_deck.lua`, `shared/board.lua` and anything in `bridge/` or `editable/`.
 3. Replace the `hunchoworld_gamepack` folder, then copy your changes back in. Check the [changelog](../changelog.md) for new config options first.
 4. Restart the server.

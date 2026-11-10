@@ -9,7 +9,7 @@ coverY: 0
 Eight table games in one resource. Players sit at real tables in synced seated animations, see the real pieces move, and play for free or for cash. Bots fill empty seats.
 
 {% hint style="success" %}
-**Get it:** [Huncho World FiveM Store](https://huncho-world-fivem-store.tebex.store/)\
+**Get it:** [Huncho World Store](https://hunchoworldstore.github.io/)\
 **Support & updates:** [Huncho World Discord](https://discord.gg/hP8VTtwgs5)
 {% endhint %}
 
