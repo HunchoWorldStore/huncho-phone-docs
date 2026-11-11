@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.26.2
+
+* **ak47\_ambulancejob: no more dead players in jail.** The script didn't always see when a player was down, so the arrest went ahead and they stayed dead in jail. Now it follows ak47's own down, death and revive events as well as its exports, so the police wait for the revive like they do with other ambulance scripts.
+* **Nobody is jailed dead.** Anyone still dead or downed when they're jailed is revived first, using the ambulance script's own revive for ak47\_ambulancejob, qb-ambulancejob and esx\_ambulancejob, and a plain GTA revive for the rest. Turn it off with `Config.ReviveOnJail = false`.
+
 ## 1.26.1
 
 * **Officers deleted by another script.** qb-smallresources deletes `s_m_y_cop_01`, `s_f_y_cop_01`, `s_m_y_sheriff_01` and `s_f_y_sheriff_01` as they spawn (its `Config.BlacklistedPeds`). Officers vanished and the response ended as if they'd been killed. Now an officer who disappears without dying doesn't count as killed. The model is remembered as blocked, new officers are sent once using a model that isn't blocked (`Config.BlockedPedFallbacks`), and the console says which setting to change. A warning also shows at startup when qb-smallresources is running with those models in use.
