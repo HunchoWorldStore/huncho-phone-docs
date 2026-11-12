@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.27.0
+
+* **Healed before jail.** Anyone jailed while hurt is healed first: full health with armor kept, blood and visible damage cleaned off, and the ambulance script's injuries cleared (ak47\_ambulancejob skelly fix, qb-ambulancejob injuries). Works with every prison script. Turn it off with `Config.HealOnJail = false`.
+
 ## 1.26.2
 
 * **ak47\_ambulancejob: no more dead players in jail.** The script didn't always see when a player was down, so the arrest went ahead and they stayed dead in jail. Now it follows ak47's own down, death and revive events as well as its exports, so the police wait for the revive like they do with other ambulance scripts.

@@ -1,7 +1,8 @@
 {
-  "version": "1.26.2",
+  "version": "1.27.0",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "Injured players are healed before they are jailed",
     "ak47_ambulancejob downs are detected, and nobody is jailed dead (revived first)",
     "Officers deleted by qb-smallresources' ped blacklist are replaced instead of ending the response",
     "Bookbags (hunchoworld_bookbags 1.0.4+) are searched like pockets: seized items go to evidence",
