@@ -1,7 +1,8 @@
 {
-  "version": "1.4.0",
+  "version": "1.4.1",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "Food Truck Vendor: grab ingredients from the truck's storage before cooking",
     "Inventory support for tgiann-inventory, wasabi_inventory, ak47_inventory and qb-inventory exports",
     "Banking support for hunchoworld_banking, fd_banking, okokBanking, qs-banking and ps-banking",
     "bridge/custom.lua: hook up your own inventory, banking, key, fuel or notification script",

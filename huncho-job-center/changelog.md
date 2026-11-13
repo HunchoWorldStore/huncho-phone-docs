@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.1
+
+* **Food Truck Vendor ingredients.** Every hotspot now starts at the truck's storage: grab the ingredients from the back of the taco truck, set them down at the hotspot, then fire up the grill and cook before serving customers. It used to go straight from the grill to serving, with no ingredients.
+
 ## 1.4.0
 
 * Inventory support for **tgiann-inventory**, **wasabi_inventory**, **ak47_inventory** and **qb-inventory** through its own exports (`Inventory = 'qb-inventory'`, QBCore with qb-inventory 2.0+). Every inventory now has its own adapter in `bridge/server/inventory.lua`.

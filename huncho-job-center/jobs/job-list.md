@@ -24,7 +24,7 @@ Most task locations are in **Mirror Park, Vinewood (incl. the Vinewood Hills and
 | Driving | Food Courier | Panto | Grab the bag at a restaurant, drive it over, ring and hand it to the customer |
 | Driving | Postman | GoPostal Boxville | Grab the bundle, sort the letters at the mailbox, post them |
 | Driving | Package Delivery | Post OP Boxville | Grab the package, scan the label, ring, hand it to the customer, get a signature |
-| Service | Food Truck Vendor | Taco Truck | A grill appears next to the truck: fire it up, then serve walk-up customers |
+| Service | Food Truck Vendor | Taco Truck | Grab the ingredients from the truck's storage, set up at the hotspot, fire up the grill and cook, then serve walk-up customers |
 | Service | Janitor | Pony | Sweep plazas, bag litter, load the van |
 | Service | Window Washer | Youga | Sponge and wipe storefront glass |
 | Service | Security Patrol | Dilettante (patrol) | Flashlight sweeps, watch entrances, log patrols |
