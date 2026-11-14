@@ -1,7 +1,8 @@
 {
-  "version": "1.28.0",
+  "version": "1.29.0",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "No police while playing paintball, laser tag or theme park games",
     "Officer first aid: CPR for downed suspects and patching up hurt ones, so nobody escapes by getting hurt",
     "Injured players are healed before they are jailed",
     "ak47_ambulancejob downs are detected, and nobody is jailed dead (revived first)",

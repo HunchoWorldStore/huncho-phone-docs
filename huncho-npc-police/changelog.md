@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.29.0
+
+* **No police for minigames.** Nothing a player does while playing a minigame gets reported. That covers gunshots, fights, people hit, speeding, brandishing, crashes and carjacks, plus alerts about them from dispatch scripts.
+  * **Supported out of the box:** nass\_paintball (in a game or spectating), hunchoworld\_lasertag (while holding the blaster), and rtx\_spawnableattractions (shooting range and bumper cars).
+  * **Other scripts:** set `LocalPlayer.state.inMinigame = true`, or add an area to `Config.Minigames.zones`.
+  * A player with a warrant is still recognized. Settings are in `Config.Minigames`.
+
 ## 1.28.0
 
 * **Officer first aid.** Getting hurt or downed no longer gets anyone out of an arrest.
