@@ -1,7 +1,8 @@
 {
-  "version": "1.27.0",
+  "version": "1.28.0",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "Officer first aid: CPR for downed suspects and patching up hurt ones, so nobody escapes by getting hurt",
     "Injured players are healed before they are jailed",
     "ak47_ambulancejob downs are detected, and nobody is jailed dead (revived first)",
     "Officers deleted by qb-smallresources' ped blacklist are replaced instead of ending the response",

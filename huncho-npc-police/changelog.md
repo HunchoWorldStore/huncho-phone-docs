@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.28.0
+
+* **Officer first aid.** Getting hurt or downed no longer gets anyone out of an arrest.
+  * **Downed:** the officers stay with a downed suspect. After 15 seconds the nearest one walks over, gives CPR for 10 seconds, revives them with the ambulance script's own revive and arrests them on the spot.
+  * **Revived another way:** if EMS, a friend or another script revives them first, they're still arrested right there.
+  * **Hurt:** a suspect under 80% health is patched up by the officer once cuffed.
+* All settings are in `Config.FirstAid`. Set `enabled = false` to go back to the old behavior.
+
 ## 1.27.0
 
 * **Healed before jail.** Anyone jailed while hurt is healed first: full health with armor kept, blood and visible damage cleaned off, and the ambulance script's injuries cleared (ak47\_ambulancejob skelly fix, qb-ambulancejob injuries). Works with every prison script. Turn it off with `Config.HealOnJail = false`.
