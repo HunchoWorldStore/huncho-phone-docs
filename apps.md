@@ -14,7 +14,7 @@
 | SneakyFan | Creator subscriptions with locked posts and payouts |
 | UPoppin | Live streams with camera and voice, chat and gem gifts |
 | Music | Your server's music, playlists, speaker mode for people nearby, and GTA radio |
-| Garage · Cribs | Your vehicles with GPS and valet delivery; your homes, locks and keys |
+| Garage · Cribs | Your vehicles with GPS and valet delivery; your homes, locks and keys (with RTX Housing: unpaid bills and its Manage menu) |
 | Wallet · Fleeca | Balance, transfers and bank history |
 | Services · Maps · Weather | 911 and your businesses routed to whoever is on duty, a full map, live weather |
 | App Store · Settings | Download apps per phone; wallpapers, accent colours, sounds, passcode, **blocked numbers** and **language** |

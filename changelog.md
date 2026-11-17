@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.7
+
+* **RTX Housing (`rtx_housing`) support, auto-detected.** Cribs lists the homes you own, rent or have a key to, with the property photo, live lock state and GPS to the door.
+* Lock and unlock the front door from the phone (needs RTX's "unlocking" permission).
+* See unpaid bills: rent, electricity, water, internet and tax.
+* **Manage** opens RTX's own management menu. Homes you own or rent also show as pins on Maps.
+
 ## 1.1.6
 
 * **Fix: "Forgot password?" lost your place.** Leaving the app to read the code in Mail sent you back to the login screen, and asking again made a new code, so the one in Mail stopped working. Now the app reopens on the code screen, asking again sends the same code, and "I already have a code" skips straight to it.
