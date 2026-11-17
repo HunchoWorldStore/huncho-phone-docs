@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.29.1
+
+* The qb-smallresources startup warning now reads its `Config.BlacklistedPeds` and only names officer models that are actually on that list. The warning goes away once you remove them, and model names no longer show twice.
+
 ## 1.29.0
 
 * **No police for minigames.** Nothing a player does while playing a minigame gets reported. That covers gunshots, fights, people hit, speeding, brandishing, crashes and carjacks, plus alerts about them from dispatch scripts.

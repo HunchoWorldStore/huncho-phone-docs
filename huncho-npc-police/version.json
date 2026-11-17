@@ -1,7 +1,8 @@
 {
-  "version": "1.29.0",
+  "version": "1.29.1",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "qb-smallresources warning only shows for models really on its blacklist",
     "No police while playing paintball, laser tag or theme park games",
     "Officer first aid: CPR for downed suspects and patching up hurt ones, so nobody escapes by getting hurt",
     "Injured players are healed before they are jailed",
