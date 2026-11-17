@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.6
+
+* **Fix: "Forgot password?" lost your place.** Leaving the app to read the code in Mail sent you back to the login screen, and asking again made a new code, so the one in Mail stopped working. Now the app reopens on the code screen, asking again sends the same code, and "I already have a code" skips straight to it.
+
 ## 1.1.5
 
 * **Move players over from lb-phone, npwd, Quasar or YSeries.** `phonemigrate <phone> preview` shows what it found, `phonemigrate <phone> run` copies it. Players keep their number, contacts, texts and group chats, call history, photos, notes and blocked numbers. From lb-phone they also keep their Instapic and Birdy accounts (now Instashot and Bird Box) with posts, likes, comments and follows. See [Moving from another phone](migration.md).
