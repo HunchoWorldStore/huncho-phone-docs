@@ -6,6 +6,7 @@
 
 * [Installation](installation.md)
 * [Configuration](configuration.md)
+* [Moving from another phone](migration.md)
 
 ## The phone
 

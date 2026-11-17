@@ -6,6 +6,7 @@
 | `config_server.lua` | Server only: Fivemanage key and Discord webhooks |
 | `config_services.lua` | Police, EMS, mechanics and your own businesses: numbers, jobs, map locations, icons |
 | `config_music.lua` | Your music library, speaker and radio settings |
+| `config_migrate.lua` | Moving from lb-phone, npwd, Quasar or YSeries: what to copy, table names. See [Moving from another phone](migration.md) |
 | `locales/*.json` | The phone's text in each language |
 
 All of these stay editable in the escrowed version, and so do both `bridge.lua` files if you want to connect a script that isn't listed.

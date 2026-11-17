@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.5
+
+* **Move players over from lb-phone, npwd, Quasar or YSeries.** `phonemigrate <phone> preview` shows what it found, `phonemigrate <phone> run` copies it. Players keep their number, contacts, texts and group chats, call history, photos, notes and blocked numbers. From lb-phone they also keep their Instapic and Birdy accounts (now Instashot and Bird Box) with posts, likes, comments and follows. See [Moving from another phone](migration.md).
+
 ## 1.1.4
 
 * **Fix: selfies and photos turned into videos.** The camera couldn't tell photos were set up after the Fivemanage key moved to `config_server.lua`, so it switched every photo and selfie to video.

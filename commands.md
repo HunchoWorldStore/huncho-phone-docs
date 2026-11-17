@@ -10,3 +10,5 @@
 | `/phone_ban <app> <username> <hours> [reason]` | Staff, console | Ban an account from posting (0 hours = for good) |
 | `/phone_unban <app> <username>` | Staff, console | Lift the ban |
 | `/phone_resetpw <app> <username> <new password>` | Staff, console | Set a social account's password. It's logged out everywhere |
+| `phonemigrate <phone> preview` | Staff, console | Show what can be copied from lb-phone, npwd, Quasar or YSeries. Writes nothing |
+| `phonemigrate <phone> run` | Staff, console | Copy it over. See [Moving from another phone](migration.md) |
