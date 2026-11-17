@@ -2,7 +2,8 @@
 
 ## 1.29.1
 
-* The qb-smallresources startup warning now reads its `Config.BlacklistedPeds` and only names officer models that are actually on that list. The warning goes away once you remove them, and model names no longer show twice.
+* The qb-smallresources startup warning now reads its `Config.BlacklistedPeds` and only names officer models that are actually on that list. The warning goes away once you remove them or set them to `false`, and model names no longer show twice.
+* A model found deleted is now only swapped until the player reconnects (before, it was remembered for good). Fixing the blacklist brings the normal officer models straight back.
 
 ## 1.29.0
 
