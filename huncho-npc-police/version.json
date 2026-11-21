@@ -1,7 +1,8 @@
 {
-  "version": "1.29.1",
+  "version": "1.30.0",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "Fairer foot chases, no arrest when downed by a player, police crashes and attacks always count, healed when hurt",
     "qb-smallresources warning only shows for models really on its blacklist",
     "No police while playing paintball, laser tag or theme park games",
     "Officer first aid: CPR for downed suspects and patching up hurt ones, so nobody escapes by getting hurt",

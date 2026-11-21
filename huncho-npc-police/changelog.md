@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.30.0
+
+* **Running away is fairer.** Tasers can now miss (65% hit chance, lower while you sprint), and only a real taser hit counts. Tripping or a bad landing mid-run no longer gets you cuffed on the spot. An officer right next to you brings you down 35% of the time, or 20% while you're sprinting. Settings are in `Config.Subdue`.
+* **Downed by another player means no arrest.** If someone other than the police puts you down during a response, the officers pull back instead of arresting you after the revive. You get a warrant if you had charges. A downed player is also never picked as the suspect for someone else's alert. Set `Config.DownedByPlayer = 'arrest'` for the old behavior.
+* **Crashing into a police car gets you pulled over.** The crash is now detected reliably, including patrols run by another player's game, and the response comes right away instead of after the dispatch delay.
+* **Shooting or hitting an officer always counts.** Every officer is tagged, so attacking any patrol or response officer brings a hostile response, not only the patrol your own game runs.
+* **Healed when hurt, not only when dead.** Any damage gets you patched up once you're cuffed (before, it was only under 80% health), and the ambulance script's injuries and bleeding are always cleared. The heal before jail now also runs when the Justice System does the jailing.
+
 ## 1.29.1
 
 * The qb-smallresources startup warning now reads its `Config.BlacklistedPeds` and only names officer models that are actually on that list. The warning goes away once you remove them or set them to `false`, and model names no longer show twice.
