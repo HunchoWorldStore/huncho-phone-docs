@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.0
+
+* **A real clothing menu for job uniforms.** In `/jcuniforms`, pick a job and choose **Open the clothing menu**. Cycle through every clothing piece and color with the arrow keys and see it live on your character, with a camera that follows the part you're changing. Save it as the job's uniform and your own clothes come back. Works with any clothing script.
+* "Use what I'm wearing" is still there if you'd rather dress in your own clothing script.
+
 ## 1.4.1
 
 * **Food Truck Vendor ingredients.** Every hotspot now starts at the truck's storage: grab the ingredients from the back of the taco truck, set them down at the hotspot, then fire up the grill and cook before serving customers. It used to go straight from the grill to serving, with no ingredients.
