@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.30.1
+
+* **Downed in a vehicle: pulled out, then first aid.** Officers couldn't get next to someone down inside a car, so CPR never started and the player was left there. Now the officer walks to their door, opens it, pulls them out onto the ground beside the car, then gives CPR and revives and heals them like anywhere else.
+
 ## 1.30.0
 
 * **Running away is fairer.** Tasers can now miss (65% hit chance, lower while you sprint), and only a real taser hit counts. Tripping or a bad landing mid-run no longer gets you cuffed on the spot. An officer right next to you brings you down 35% of the time, or 20% while you're sprinting. Settings are in `Config.Subdue`.
