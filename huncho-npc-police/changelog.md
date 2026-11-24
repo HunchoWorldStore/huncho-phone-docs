@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.30.2
+
+* **No black screen after respawning.** Pressing E to respawn with ak47\_ambulancejob (and other ambulance scripts) could leave the screen black for good. The police could revive, heal, restrain or cuff the player while the ambulance script was still fading them out and moving them to the hospital.
+  * Now the police don't act while the screen is fading or black.
+  * Someone who respawns at a hospital isn't followed in and arrested there. They get a warrant if they had charges.
+  * If the screen is still black a few seconds after one of the police revives or heals, it's brought back.
+
 ## 1.30.1
 
 * **Downed in a vehicle: pulled out, then first aid.** Officers couldn't get next to someone down inside a car, so CPR never started and the player was left there. Now the officer walks to their door, opens it, pulls them out onto the ground beside the car, then gives CPR and revives and heals them like anywhere else.
