@@ -6,3 +6,4 @@
 - **`/jcdaily [job]`**: change today's job of the day (no job = back to automatic).
 - **`/jclocations`**: move any location in game (see [Locations](../configuration/locations.md)).
 - **`/jcuniforms`**: set job uniforms in game (see [Uniforms](../configuration/uniforms.md)).
+- **`/jcjobs`**: turn jobs on or off in game (see [Turning jobs off](../jobs/job-list.md#turning-jobs-off)).

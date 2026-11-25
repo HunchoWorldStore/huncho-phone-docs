@@ -1,7 +1,8 @@
 {
-  "version": "1.5.0",
+  "version": "1.6.0",
   "download": "https://keymaster.fivem.net",
   "changelog": [
+    "/jcjobs: turn jobs on and off in game",
     "/jcuniforms: built-in clothing menu to dress each job's uniform",
     "Food Truck Vendor: grab ingredients from the truck's storage before cooking",
     "Inventory support for tgiann-inventory, wasabi_inventory, ak47_inventory and qb-inventory exports",

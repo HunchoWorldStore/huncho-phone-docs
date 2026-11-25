@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.0
+
+* **Turn jobs on and off in game.** `/jcjobs` (admin) lists every job with an on/off switch. A job turned off disappears from the Job Center, its depot and blip go away for everyone, it can't be the job of the day, and nobody can sign up, clock in or join a crew. Players already on shift finish and get paid as normal. Saved in the database and kept after restarts.
+
 ## 1.5.0
 
 * **A real clothing menu for job uniforms.** In `/jcuniforms`, pick a job and choose **Open the clothing menu**. Cycle through every clothing piece and color with the arrow keys and see it live on your character, with a camera that follows the part you're changing. Save it as the job's uniform and your own clothes come back. Works with any clothing script.

@@ -35,4 +35,13 @@ Most task locations are in **Mirror Park, Vinewood (incl. the Vinewood Hills and
 | Outdoor | Electrician | Utility Pickup | Carry the toolbox, wrench repair, weld, test on a tablet |
 | Outdoor | Graffiti Removal | Burrito | Paint over tags, scrape off stickers |
 
-Turn any job off with `enabled = false` at the top of its file in `config/jobs/`. It disappears completely: no card, depot, ped or blip, and the server rejects it.
+## Turning jobs off
+
+**In game:** type **`/jcjobs`** (admin) and pick a job to switch it on or off. Changes are live for everyone, with no restart.
+
+* **Off:** the job disappears from the Job Center, its depot ped and blip are removed, it can't be the job of the day, and nobody can sign up, clock in or join a crew. Players signed up for it are told it closed. Anyone already on shift finishes and gets paid as normal.
+* **On:** everything comes back right away.
+
+It's saved in the database and kept after restarts and updates, and every change is logged to Discord.
+
+**In the files:** set `enabled = false` at the top of the job's file in `config/jobs/`. That removes the job completely: no card, depot, ped or blip, and the server rejects it.
