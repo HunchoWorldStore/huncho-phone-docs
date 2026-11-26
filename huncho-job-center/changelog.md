@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.1
+
+* **Fixed: couldn't third-eye the Job Center and depot peds.** A stray copy of a ped could get left on top of the real one when the world was rebuilt while it was still loading. Peds now load safely, and nothing is rebuilt at join when nothing has changed.
+
 ## 1.6.0
 
 * **Turn jobs on and off in game.** `/jcjobs` (admin) lists every job with an on/off switch. A job turned off disappears from the Job Center, its depot and blip go away for everyone, it can't be the job of the day, and nobody can sign up, clock in or join a crew. Players already on shift finish and get paid as normal. Saved in the database and kept after restarts.
